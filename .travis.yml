@@ -1,0 +1,10 @@
+language: java
+branches:
+  only:
+     master
+notifications:
+  email:
+    recipients:
+      jonathan.payares@udea.edu.co
+jdk: oraclejdk8
+script: mvn clean install
